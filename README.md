@@ -19,7 +19,7 @@ Functions
     Click the "Log In with Google" button.
     Authorize the application to use your Google account.
 
-  2. Registering/Logging In:
+  2. Registering:
     If you are a new user, you will be prompted to create a password.
     This password will be used to encrypt your RSA private key.
     If you are an existing user, enter your password to decrypt your RSA private key.
