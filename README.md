@@ -9,10 +9,12 @@ Features
   4. Malware Detection: Automatically detect malware in uploaded files.
 
 Prerequisites
-  1. Install IPFS and start Daemon by entering "ipfs daemon" in your command prompt.
-  2. Open http://127.0.0.1:5001/ in your browser and check the ipfs is running.
-  3. Install MetaMask in your browser.
-  4. Install Ganache and set up the Ganache network in MetaMask and add a wallet.
+  1. Create a project in firebase and setup the firebase authentication, firebase database and firebase storage.
+  2. Add the neccessary keys and IDs to the .env file and firebase.js file.
+  3. Install IPFS and start Daemon by entering "ipfs daemon" in your command prompt.
+  4. Open http://127.0.0.1:5001/ in your browser and check the ipfs is running.
+  5. Install MetaMask in your browser.
+  6. Install Ganache and set up the Ganache network in MetaMask and add a wallet.
 
 Functions
   1. Log In:
