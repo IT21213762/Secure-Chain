@@ -1,4 +1,4 @@
-#Secure Chain - A web application for securely storing and sharing files.
+Secure Chain - A web application for securely storing and sharing files.
 
 Project done by:
   Bandara H.M.H.M - IT21213762
