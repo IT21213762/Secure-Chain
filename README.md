@@ -35,19 +35,19 @@ Functions
     The file will be uploaded to IPFS and the CID will be shared via the blockchain.
 
 Technical Details
-  1. Password Encryption
+  1. Password Encryption:
     When you register, a new RSA key pair is generated.
     Your private RSA key is encrypted using AES with your password.
     The encrypted private key is stored in Firebase Firestore.
     Your password is never stored, ensuring maximum security.
   
-  2. Blockchain File Sharing
+  2. Blockchain File Sharing:
     Files are uploaded to IPFS, generating a unique CID.
     The CID is shared with the recipient via a blockchain transaction.
     The recipient retrieves the CID from the blockchain and downloads the file from IPFS.
     The file is decrypted using the recipient's private key.
   
-  3. Malware Detection
+  3. Malware Detection:
     Uploaded files are analyzed using a trained machine learning model.
     The model detects potential malware in the files.
     Users are alerted if malware is detected, and the file upload is prevented.
